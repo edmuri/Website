@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+#BigTitle{
+    color: white;
+    font-family: verdana, arial;
+}
+p{
+    color: white;
+    font-family:"lucida consol", "courier new";
+    font-size: 1.em;
+}
+#p1{color: pink}
