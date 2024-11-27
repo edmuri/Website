@@ -1,13 +1,19 @@
 body{
     background-color: black;
 }
-#BigTitle{
+#Title{
     color: white;
     font-family: verdana, arial;
 }
-p{
-    color: white;
-    font-family:"lucida consol", "courier new";
-    font-size: 1.em;
+#LinkedInLink{
+    color: rgb(255,255,255);
 }
-#p1{color: pink}
+#GitHubLink{
+    color: rgb(255,255,255);
+}
+p{
+    color: rgb(73, 68, 163);
+    font-family:"lucida consol", "courier new";
+    font-size: 1.em;    
+}
+#p1{color: rgb(255,124,233);}
