@@ -1,19 +1,65 @@
+header{
+    background-color: rgb(160, 138, 119);
+    padding: 25px;
+    height:25px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+#HomeButton{
+    position:absolute;
+    transform:translate(700px,-10px);
+}
+#ProjectButton{
+    position:absolute;
+    transform:translate(300px,-10px);
+}
+#ActivitiesButton{
+    position:absolute;
+    transform:translate(1100px,-10px);
+}
 body{
-    background-color: black;
+    background-color: rgb(207,176,149);
+    margin: 0px;
 }
 #Title{
-    color: white;
-    font-family: verdana, arial;
+    color: rgb(255,255,255);
+    font-family: "Brush Scipt MT", cursive;
+}
+#AboutMe{
+    border:2px,solid;
+    border-radius: 50px;
+    height: 600px;
+    width: 1000px;
+    transform: translate(28%,0%);
+    position: relative;
+    background-color:rgb(137, 110, 110);
+
+}
+#ProfilePic{
+    width: 350px;
+    height: 450px;
+    transform: translate(20%,10%);
+    position:relative;
+}
+#AboutMeParagraph{
+    transform: translate(90%,-94%);
+    width: 500px;
+    height: 450px;
+    color: rgb(0,0,0);
+    padding:5px;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
 }
 #LinkedInLink{
-    color: rgb(255,255,255);
+    font-family: verdana, arial;
 }
 #GitHubLink{
-    color: rgb(255,255,255);
+    font-family: verdana, arial;
 }
 p{
-    color: rgb(73, 68, 163);
-    font-family:"lucida consol", "courier new";
-    font-size: 1.em;    
+    color: rgb(108, 51, 154);
+    font-family:"Bradley Hand", cursive;
+    font-size: 10 px;    
 }
-#p1{color: rgb(255,124,233);}
