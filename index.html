@@ -1,61 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title id = "TabTitle">Portfolio</title>
         <link rel = "stylesheet" href = "style.css">
         <script src="https://kit.fontawesome.com/dcc544ee8b.js" crossorigin="anonymous"></script>
+        <link rel="website icon" type="png" href="photos/heart_icon.png">
     </head>
-    <body>
-        <div>
-            <header>
-                <nav class = "navbar">
-                    <div id="HomeButton">
-                        <a id = "Home" href = "index.html">
-                        <i class="fa-solid fa-house fa-3x" style="color: rgb(94, 69, 71);"></i>
-                        </a>
+    <body> 
+        <header>
+            <nav class = "navbar">
+                <ul class = "navLinks">     
+                    <li><a href = "projects.html"><i class="fa-solid fa-display fa-3x" ></i></a></li>
+                    <li><a href = "index.html"><i class="fa-solid fa-house fa-3x"></i></a></li>
+                    <li><a href = "activities.html"><i class="fa-solid fa-wave-square fa-3x"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="TopSection">
+            <div class="TopDiv">
+                <div class="AboutMe">
+                    <img src="photos/funDog.jpg" id="ProfilePic">
+                    <div class="LeftSidePost">
+                        <p id="AboutMeParagraph">
+                            This is my personal website. I am very excited to develop this to showcase all my progress as I earn my degree. 
+                                I'm currently a junior at UIC studying Computer Science. My interested involve Cyber Security and Game Development. 
+                                    I am currently working with a Spotify API to create a new Web App that creates playlists and can't wait to show it off!
+                        </p>
+                        <ul class="ContactLinks">
+                            <li><a href="https://www.linkedin.com/in/eduardo-murillo1/" target="_blank"><i class="fa-brands fa-linkedin fa-3x"></i></a></li>
+                            <li><a href="https://github.com/edmuri" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a></li>
+                            <li><a href="mailto:ed.murillo717@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-3x"></i></a></li>
+                        </ul>
                     </div>
-                    <div id= "ProjectButton">
-                        <a id = "Projects" href = "projects.html">
-                            <i class="fa-solid fa-display fa-3x" style="color: rgb(94, 69, 71);"></i>
-                        </a>
-                    </div>
-                    <div id="ActivitiesButton">
-                        <a id = "Activities" href = "activities.html">
-                            <i class="fa-solid fa-wave-square fa-3x" style="color: rgb(94, 69, 71);"></i>
-                        </a>
-                    </div>
-                    <!--<a id = "Contact" href = "#">Contact</a>-->
-                 </nav>
-            </header>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div id="AboutMe">
-            <img src="photos/funDog.jpg" id="ProfilePic">
-            <p id="AboutMeParagraph">
-                This is my personal website. I am very excited to develop this to showcase all my progress as I earn my degree.
-            </p>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <a id = "LinkedInLink" href="https://www.linkedin.com/in/eduardo-murillo1/">LinkedIn</a>
-        <br>
-        <a id = "GitHubLink" href="https://github.com/edmuri"> Github </a>
-        <br>
+                </div>
+            </div>
+        </section>
         <main>
-            <!-- Posts go here -->
+            <section class="lineSection">
+                <div class="VerticalTimeline"></div>
+            </section>
+            <!--Posts go here-->
+            <section class="posts">
+                <!--Post1-->
+                <article class="postContainer">
+                    <div class="postMain">
+                        <div class="LeftSidePost">
+                            <p>Winter Break: Currently trying to work with APIs in Java. Super Excited!
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!--Post2-->
+                <article class="postContainer">
+                    <div class="postMain">
+                        <div class="LeftSidePost">
+                            <p>Just got grades back for the semester! 
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!--Post3-->
+                <!--<div class="postContainer">
+                    <div class="postMain">
+                        <p></p>
+                    </div>
+                </div>-->
+
+            </section>
         </main>
-        <footer></footer>
-        <!-- Comment -->
+        <footer>
+            <section></section>>
+        </footer>
     </body>
 </html>

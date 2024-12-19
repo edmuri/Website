@@ -1,62 +1,121 @@
 header{
-    background-color: rgb(160, 138, 119);
-    padding: 25px;
-    height:25px;
+    background-color: rgba(160, 138, 119, 0.784);
+    padding:0;
+    height:75px;
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: 1000;
+    z-index: 1000; 
+    text-decoration: none;
+    display:flex;
+    box-shadow: 5px 5px 12px #00000035;
 }
-#HomeButton{
-    position:absolute;
-    transform:translate(700px,-10px);
+ul{
+    display:flex;
+    align-content: center;
 }
-#ProjectButton{
-    position:absolute;
-    transform:translate(300px,-10px);
-}
-#ActivitiesButton{
-    position:absolute;
-    transform:translate(1100px,-10px);
+a,li{
+    list-style:none;
+    display: inline-block;
+    color:rgb(94, 69, 71)
 }
 body{
-    background-color: rgb(207,176,149);
+    overscroll-behavior: none;
+    background-image: url("photos/homeBackground.jpg");
+    overflow:auto;
     margin: 0px;
 }
-#Title{
-    color: rgb(255,255,255);
-    font-family: "Brush Scipt MT", cursive;
+main{
+    display:flex;
 }
-#AboutMe{
+.LeftSidePost{
+    padding:2%;
+    height:100%;
+    width:100%;
+    align-items: center;
+}
+.navbar{
+    border:2px,solid;
+    width:100%;
+    padding:0;
+    display:flex;
+    justify-content: center;
+}
+.navLinks{   
+    width:75%;
+    justify-content: space-between;
+}
+.TopSection{
+    height:80%;
+    padding:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.TopDiv{
+    padding:2%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.AboutMe{
     border:2px,solid;
     border-radius: 50px;
-    height: 600px;
-    width: 1000px;
-    transform: translate(28%,0%);
-    position: relative;
-    background-color:rgb(137, 110, 110);
-
+    padding:2%;
+    height: 10%;
+    display:flex;
+    align-items: center;
+    backdrop-filter: blur(4px);
+    box-shadow: 5px 5px 12px #00000035;
+    overflow:hidden;
+    background:#FFFFFF25;
 }
 #ProfilePic{
-    width: 350px;
-    height: 450px;
-    transform: translate(20%,10%);
-    position:relative;
+    border-radius: 50px;
+    width: 35%;
+    height: 80%;
 }
 #AboutMeParagraph{
-    transform: translate(90%,-94%);
-    width: 500px;
-    height: 450px;
+    align-self: start;
     color: rgb(0,0,0);
-    padding:5px;
-    font-size: 3em;
+    width:100%;
+    height: 50%;
+    font-size: 2em;
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
 }
-#LinkedInLink{
-    font-family: verdana, arial;
+.ContactLinks{
+    padding:2%;
+    width:30%;
+    align-self: end;
+    justify-content: space-evenly;
 }
-#GitHubLink{
-    font-family: verdana, arial;
+.VerticalTimeline{
+        width: 5px;
+        height: 100%;
+        background-color: black;
+}
+.lineSection{
+    width:10%;
+    display:flex;
+    justify-content: center;
+}
+/*Section that lists all posts, will contain multiple divs that will maintain posts*/
+.posts{
+    width:100%;
+}
+.postContainer{
+    /*border:2px,solid,purple;*/
+    height:500px;
+    padding:5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.postMain{
+    width:90%;
+    height:90%;
+    border-radius: 50px;
+    background-color: rgb(61, 40, 13);
 }
 p{
     color: rgb(108, 51, 154);
