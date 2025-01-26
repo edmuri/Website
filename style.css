@@ -17,18 +17,22 @@ ul{
 a,li{
     list-style:none;
     display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
     color:rgb(94, 69, 71)
 }
 body{
     overscroll-behavior: none;
-    background-image: url("photos/homeBackground.jpg");
+    background-color: #E8CBAE;
     overflow:auto;
     margin: 0px;
+    padding-top:75px;
 }
 main{
     display:flex;
 }
-.LeftSidePost{
+.AboutMeInfo{
     padding:2%;
     height:100%;
     width:100%;
@@ -43,20 +47,18 @@ main{
 }
 .navLinks{   
     width:75%;
+    align-items: center;
     justify-content: space-between;
 }
 .TopSection{
     height:80%;
-    padding:5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom:5%;
+    padding-top:2%;
     display:flex;
     justify-content: center;
     align-items: center;
-}
-.TopDiv{
-    padding:2%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
 }
 .AboutMe{
     border:2px,solid;
@@ -65,7 +67,8 @@ main{
     height: 10%;
     display:flex;
     align-items: center;
-    backdrop-filter: blur(4px);
+    backdrop-filter:blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     box-shadow: 5px 5px 12px #00000035;
     overflow:hidden;
     background:#FFFFFF25;
@@ -89,6 +92,10 @@ main{
     align-self: end;
     justify-content: space-evenly;
 }
+.ContactLinks img{
+    height:80%;
+    width:80%;
+}
 .VerticalTimeline{
         width: 5px;
         height: 100%;
@@ -99,26 +106,102 @@ main{
     display:flex;
     justify-content: center;
 }
-/*Section that lists all posts, will contain multiple divs that will maintain posts*/
-.posts{
-    width:100%;
-}
 .postContainer{
-    /*border:2px,solid,purple;*/
     height:500px;
     padding:5%;
     display:flex;
     align-items: center;
     justify-content: center;
 }
-.postMain{
+.postOuterFrame{
+    padding:2%;
     width:90%;
     height:90%;
     border-radius: 50px;
-    background-color: rgb(61, 40, 13);
+    border:10px,solid,rgb(120, 107, 91);
+    background-color: rgba(212, 184, 151, 0.788);
+    box-shadow: 5px 5px 20px #000000;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.PostPhotos{
+    width:60%;
+    height:70%;
+}
+.postDate{
+    align-self: flex-start;
+}
+.projectMain{
+    display:flex;
+    flex-direction: column;
+}
+.buttonSection{
+    display: grid;
+    column-gap: 50px;
+    row-gap:20px;
+    grid-template-columns: auto auto auto;
+    padding: 2%;
+    background-color: #c4ab92;
+}
+.backToTop{
+    align-self: flex-end;
+    background-color: rgb(144, 120, 85);
+    color:#000000;
+    border-radius: 100px;
+}
+.projectLink{
+    font-family:"Bradley Hand", cursive;
+    font-size: 15px;
+}
+.projectDiv{
+    border: 2px,solid,black;
+    background-color: #E8CBAE;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding:2%;
+
+}
+
+.projectButton{
+    background-color: rgba(48, 48, 48, 0.485);
+    border-radius: 90px;
+}
+
+.galleryContainer{
+    overflow:hidden;
+    display:flex;
+    width:100%;
+    height:80%;
+    margin:auto;
+}
+
+.galleryWrap{
+    display:flex;
+    width:100%;
+    transition:transform o.5s;
+
+}
+.galleryImage{
+    border:2px,solid,black;
+    width:100%;
+    height:100%;
+}
+
+.galleryButton{
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000
 }
 p{
-    color: rgb(108, 51, 154);
+    color: rgb(0, 0, 0);
     font-family:"Bradley Hand", cursive;
     font-size: 10 px;    
 }
