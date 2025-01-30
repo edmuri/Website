@@ -1,0 +1,148 @@
+
+header{
+    display:flex;
+}
+
+nav {
+    width:100%;
+    padding:0;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 15px;
+}
+nav li,a{
+    display:inline-flex;
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    margin:5px;
+}
+
+nav a:hover{
+    color:white;
+}
+
+html{
+    height:100%;
+    overflow: hidden;
+}
+
+body{
+    background-color: #A9A18C;
+    border: 2px,solid,black;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    height:100%;
+}
+section{
+    height:100%;
+    display:flex;
+    justify-content: center;
+}
+main{
+    display:flex;
+    height:100%;
+}
+/*div{
+    height:100%;
+}*/
+
+#leftSide{
+    width:30%;
+    display:flex;
+    flex-direction: column;
+}
+#rightSide{
+    width:70%;
+}
+
+#AboutMe{
+    background-color: #816C58;
+    border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    width:80%;
+    height:50%;
+    padding:6%;
+}
+
+#MyPhoto{
+    width:40%;
+    height:100%;
+    border:5px,solid,#493829;
+    border-radius: 15px;
+}
+
+#leftOfPhoto{
+    width:100%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#topHalf{
+    width:100%;
+    height:50%;
+    display:flex;
+}
+
+#bottomHalf{
+    width:100%;
+    padding: 5%;
+    display:flex;
+    justify-content: center;
+    align-self: end;
+    align-content: center;
+}
+
+.ABText{
+    font-size:1vw;
+    height:5%;
+    color:white;
+}
+
+#name{
+    color:black;
+    font-size: 0.8em;
+    padding-left: 6%;
+}
+
+#description{
+    color:white;
+    font-size: clamp(12px,1vw,20px);
+    text-decoration: none;
+
+}
+
+#postFolders{
+    height:50%;
+    display:grid;
+    padding:5%;
+}
+
+.folderIcon{
+    max-height:15%;
+    max-width:10%;
+
+}
+
+
+
+
+
+#photoDiv{
+    
+    width:90%;
+    height:60%;
+    border-radius: 50px;
+    
+    backdrop-filter:blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    box-shadow: 5px 5px 12px #00000035;
+    overflow:hidden;
+    background:#FFFFFF25;
+}
