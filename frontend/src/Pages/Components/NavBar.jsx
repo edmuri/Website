@@ -1,11 +1,13 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 import "../Styles/navbar.css";
 
 const NavBar = () => {
     return(
         <footer>
-            <nav class = "navbar">
+            <nav className = "navbar">
                 <p>{'<'}</p>
-                <ul class = "navLinks">
+                <ul className = "navLinks">
                     <li></li>
                 </ul>
                 <p>{'>'}</p>

@@ -1,5 +1,7 @@
 import NavBar from "./Components/NavBar";
-import Line from "./Components/Line"
+import Line from "./Components/Line";
+import React from "react";
+import ReactDOM from "react-dom/client";
 import "./Styles/HomePage.css";
 
 const HomePage = () =>{
@@ -13,6 +15,7 @@ const HomePage = () =>{
                     <div>{<Line/>}</div>
                     <div id="photo-div">
                     {/* <img src="photos/funDog.jpg"> */}
+                    <p>HOW ARE YOU</p>
                     </div>
                     <div>{<Line/>}</div>
                 </section>
