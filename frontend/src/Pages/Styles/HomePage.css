@@ -1,51 +1,60 @@
 
-html{
-    height:100%;
-    overflow: hidden;
-}
-
 body{
     background-color: #1e1d1d;
-    box-sizing: border-box;
     margin:0;
     padding:0;
-    height:100%;
+    height:100vh;
 }
-section{
-    height:100%;
-    display:flex;
-    justify-content: center;
-}
-main{
+
+#main-content{
     display:flex;
     flex-direction: column;
     height:100%;
 }
 
-#main-content{
-    height:100%;
+.top-container{
     display:flex;
 }
 
 /* Left side of screen */
 #description-container{
-    width:50%;
-    height:100%;
-    display:flex;
+    background-color:red;
+    justify-items: center;
     align-items: center;
+    height:100%;
+    width:50%;
+    padding:5%;
+}
+
+.Text,p{
+    color:white;
 }
 
 
 /* Right side of screen */
 #photo-container{
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-    height:100%;
+    /* background-color:rgb(62, 45, 45); */
     width:50%;
+    padding:5%;
+    justify-items:center;
+    row-gap:2%;
 }
 
 #photo-div{
-    width:45%;
-    height:55%;
+    width:50%;
+    padding:0%;
+    margin:5%;
+}
+img{
+    height:100%;
+    width:100%;
+    padding:0%;
+}
+.Line{
+    width:60%;
+}
+
+.NavBar{
+    align-self: center;
+    width:75%;
 }
