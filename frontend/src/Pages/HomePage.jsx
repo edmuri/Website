@@ -1,5 +1,6 @@
 import NavBar from "./Components/NavBar";
 import Line from "./Components/Line";
+import Description from "./Components/Description";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./Styles/HomePage.css";
@@ -10,16 +11,12 @@ const HomePage = () =>{
             <div id="main-content">
                 <div className="top-container">
                     <section id="description-container">
-                    <h1 className="Text">HELLO!</h1>
-                    <p className="Text">My name is Eduardo Murillo. How are you.</p>
+                    <Description/>
                     </section>
-
                     <section id="photo-container">
                         <div className="Line">{<Line/>}</div>
                         <div id="photo-div">
-                            <img 
-                                src={Pfp}
-                                alt="Description" />
+                            <img src={Pfp} alt="Description" />
                         </div>
                         <div className="Line">{<Line/>}</div>
                     </section>
