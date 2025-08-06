@@ -27,6 +27,7 @@
 .songSection{
     display:flex;
     justify-content: center;
+    align-items: center;
     height:30%;
     width:100%;
 }

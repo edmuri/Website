@@ -12,14 +12,10 @@ const About = () => {
             <div className="topSection">
                 <AboutDesc/>
                 <div className="right-container">
-                    {/* <div className="embedded-container"> */}
-                        {/* <div className="img-container">
-                            <img src={Pic}/>
-                        </div> */}
-                        <div className="favoritesContainer">
-                            <Favorites/>
-                        </div>
-                    {/* </div> */}
+                    <h1>My favorite songs</h1>
+                    <div className="favoritesContainer">
+                        <Favorites/>
+                    </div>
                 </div>
             </div>
             <footer className="NavBar">

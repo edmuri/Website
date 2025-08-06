@@ -4,7 +4,7 @@
 }
 .topSection{
     display:flex;
-    padding:1%;
+    padding:0%;
     /* background-color:chocolate; */
 }
 .embedded-container{
@@ -16,8 +16,12 @@
 }
 .right-container{
     display:flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.right-container>h1{
+    color:white;
 }
 .img-container{
     width:100%;
@@ -36,7 +40,8 @@
     /* background-color:red; */
 }
 .aboutDesc{
-    height:50%;
+    padding:3%;
+    height:100%;
     /* width:50%; */
     /* background-color: blue; */
 }

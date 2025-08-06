@@ -25,7 +25,7 @@ const Favorites = () => {
                             <section className="songSection"><p>Lady Gaga</p></section>
                         </div>
                         <div className="playButton">
-                            <a href="https://youtu.be/xWS0aRqzP6E?si=B7IGS1oZwv5FMo1g" target="_blank"><img className="play" src={PlayButton}/></a>
+                            <a href="https://youtu.be/GMIIpxW-7Zw?si=4CEx_W3IK5CijYtP" target="_blank"><img className="play" src={PlayButton}/></a>
                         </div>
                     </div>
                 </div>
