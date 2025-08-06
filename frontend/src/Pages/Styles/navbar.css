@@ -3,7 +3,6 @@
     display:flex;
     align-items: center;
     justify-items: center;
-    /* background-color:#ffffff; */
     width:75%;
 }
 .navLinks{
@@ -11,5 +10,13 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    list-style: none;
     column-gap: 10%;
+}
+
+.navLinks>li{
+    color:white;
+}
+.navLinks>li:hover{
+    cursor:pointer;
 }

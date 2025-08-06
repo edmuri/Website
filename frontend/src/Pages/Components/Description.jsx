@@ -4,6 +4,7 @@ import "../Styles/Description.css";
 import Line from "../Components/Line";
 import GitHub from "../photos/github_icon.png";
 import Linkedin from "../photos/linkedin_icon.png";
+import Email from "../photos/email_icon.png";
 
 const Description = () => {
     return(
@@ -36,9 +37,9 @@ const Description = () => {
                 <Line/>
             </div>
             <ul className="Links">
-                <li><a href="mailto:ed.murillo717@gmail.com"><img className = "icon" src={GitHub}/></a></li>
-                <li><a href="https://www.linkedin.com/in/eduardo-murillo1/"><img className = "icon" src={Linkedin}/></a></li>
-                <li><a href="https://github.com/edmuri"><img className = "icon" src={GitHub}/></a></li>
+                <li><a href="mailto:ed.murillo717@gmail.com" target="_blank"><img className = "icon" src={Email}/></a></li>
+                <li><a href="https://www.linkedin.com/in/eduardo-murillo1/" target="_blank"><img className = "icon" src={Linkedin}/></a></li>
+                <li><a href="https://github.com/edmuri" target="_blank"><img className = "icon" src={GitHub}/></a></li>
             </ul>
         </div>
     )

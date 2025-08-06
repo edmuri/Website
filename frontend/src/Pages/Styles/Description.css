@@ -5,9 +5,6 @@
     row-gap: 0%;
     padding:5%;
 }
-.TextSection{
-
-}
 .Links{
     display:flex;
     flex-direction: row;
