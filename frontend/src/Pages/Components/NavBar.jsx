@@ -12,7 +12,7 @@ const NavBar = () => {
     let path = "";
 
     const handleToHome = () =>{
-        path="/";
+        path="/Website";
         navigate(path);
     };
 
