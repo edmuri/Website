@@ -4,8 +4,8 @@ import Description from "./Components/Description";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./Styles/HomePage.css";
-// import Pfp from "./photos/rainbow_self_photo.jpg";
-import Pfp from "./photos/funDog.jpg";
+import Pfp from "./photos/rainbow_self_photo.jpg";
+// import Pfp from "./photos/funDog.jpg";
 
 const HomePage = () =>{
     return (
