@@ -6,4 +6,8 @@ html{
 body{
     margin:0;
 }
+.NavBar{
+    align-self: center;
+    width:75%;
+}
 
