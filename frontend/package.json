@@ -7,10 +7,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "^7.0.6"
   },
-  "homepage":"https://edmuri.github.io/Website/"
+  "homepage": "https://edmuri.github.io/Website"
 }
