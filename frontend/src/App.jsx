@@ -5,7 +5,7 @@ import Gallery from "./Pages/GalleryPage";
 import About from "./Pages/AboutPage";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { HashRouter as Route} from "react-router-dom";
 
 function App(){
     return(
