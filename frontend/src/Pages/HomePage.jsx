@@ -4,13 +4,14 @@ import Description from "./Components/Description";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./Styles/HomePage.css";
-import Pfp from "./photos/rainbow_self_photo.jpg";
+// import Pfp from "./photos/rainbow_self_photo.jpg";
+import Pfp from "./photos/funDog.jpg";
 
 const HomePage = () =>{
     return (
             <div id="main-content">
                 <div className="top-container">
-                    <section id="description-container">
+                    <section className="description-container">
                     <Description/>
                     </section>
                     <section id="photo-container">

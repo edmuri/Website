@@ -9,21 +9,24 @@ body{
 #main-content{
     display:flex;
     flex-direction: column;
+    column-gap: 0%;
     height:100%;
 }
 
 .top-container{
     display:flex;
+    height:80%;
+    /* background-color:yellow; */
+    width:100%;
 }
 
 /* Left side of screen */
-#description-container{
-    /* background-color:red; */
+.description-container{
+    display: flex;
     justify-items: center;
     align-items: center;
-    height:100%;
-    width:50%;
-    padding:5%;
+    width:80%;
+    padding:0%;
 }
 
 .Text,p{
@@ -41,7 +44,7 @@ body{
 }
 
 #photo-div{
-    width:50%;
+    width:70%;
     padding:0%;
     margin:5%;
 }
@@ -51,7 +54,7 @@ img{
     padding:0%;
 }
 .Line{
-    width:60%;
+    width:70%;
 }
 
 .NavBar{
