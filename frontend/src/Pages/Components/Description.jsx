@@ -19,7 +19,7 @@ const Description = () => {
                     I currently have my hands full juggling three different projects:
                 </p>
                 <p className="Text">
-                    SYSTRUM: A full stack project that incorporates Spotify's API to break down user's input sentences selected 
+                    SYSTRUM: A full stack project that incorporates Spotify's API to break down user's input sentences with selected 
                     filters and create playlists for them. Our team is currently expanding to create more options for users.
                 </p>
                 <p className="Text">
@@ -28,7 +28,7 @@ const Description = () => {
                     for your nights!
                 </p>
                 <p className="Text">
-                    NAME TBA: A new horror game that depicts a man discovering the existance of creatures existing in his local state park!
+                    NAME TBA: A new horror game that depicts a man discovering the existence of creatures existing in his local state park!
                 </p>
                 <p className="Text">
                     Take a look around my page! For more info about the projects above and previous projects, head to my projects tab. 

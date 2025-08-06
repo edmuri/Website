@@ -1,0 +1,52 @@
+
+.mainFavoritesSection{
+    padding:0%;
+}
+.favSongs{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+.song{
+    display: flex;
+    flex-direction: row;
+    height:25%;
+    padding:1%;
+}
+.cover-container{
+    padding:2%;
+    width:100%;
+}
+.descAndLink{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-items: center; */
+}
+.songSection{
+    display:flex;
+    justify-content: center;
+    height:30%;
+    width:100%;
+}
+.desc{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:90%;
+    align-items: center;
+}
+.albumCover{
+    height:100%;
+    width:100%;
+}
+.playButton{
+    /* background-color: white; */
+    max-height: 45%;
+    max-width: 25%;
+}
+.play{
+    height:100%;
+    width:100%;
+}

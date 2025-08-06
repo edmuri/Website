@@ -1,4 +1,45 @@
-.mainSection{
+.mainAboutSection{
     display:flex;
     flex-direction: column;
+}
+.topSection{
+    display:flex;
+    padding:1%;
+    /* background-color:chocolate; */
+}
+.embedded-container{
+    display:flex;
+    flex-direction: column;
+    /* background-color:rgb(215, 187, 187); */
+    width:100%;
+    height:100%;
+}
+.right-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-container{
+    width:100%;
+    height:25%;
+    /* padding:5%; */
+    /* background-color:green; */
+}
+.img-container>img{
+    width:100%;
+}
+.favoritesContainer{
+    display:flex;
+    width:70%;
+    height:55%;
+    padding:0%;
+    /* background-color:red; */
+}
+.aboutDesc{
+    height:50%;
+    /* width:50%; */
+    /* background-color: blue; */
+}
+.aboutDesc>h1{
+    color:white;
 }
