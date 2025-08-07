@@ -5,11 +5,11 @@ import Gallery from "./Pages/GalleryPage";
 import About from "./Pages/AboutPage";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HashRouter as BrowserRouter,Routes, Route} from "react-router-dom";
+import { HashRouter as Router,Routes, Route} from "react-router-dom";
 
 function App(){
     return(
-        <BrowserRouter>
+        <Router>
         <Routes>
             <Route path="/Website" element = {<HomePage />} />
             <Route path="/Projects" element = {<Projects/>}/>
@@ -17,7 +17,7 @@ function App(){
             <Route path="/Gallery" element={<Gallery/>}/>
             <Route path="/About" element={<About/>}/>
         </Routes>
-        </BrowserRouter>
+        </Router>
     );
 }
 
