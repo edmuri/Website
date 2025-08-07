@@ -9,7 +9,7 @@ import { HashRouter as Router,Routes, Route} from "react-router-dom";
 
 function App(){
     return(
-        <Router>
+        <HashRouter>
         <Routes>
             <Route path="/Website" element = {<HomePage />} />
             <Route path="/Projects" element = {<Projects/>}/>
@@ -17,7 +17,7 @@ function App(){
             <Route path="/Gallery" element={<Gallery/>}/>
             <Route path="/About" element={<About/>}/>
         </Routes>
-        </Router>
+        </HashRouter>
     );
 }
 
