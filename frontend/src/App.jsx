@@ -1,5 +1,5 @@
 import HomePage from "./Pages/HomePage";
-import Projects from "./Pages/ActivitiesPage";
+import Projects from "./Pages/ProjectsPage";
 import Activities from "./Pages/ActivitiesPage";
 import Gallery from "./Pages/GalleryPage";
 import About from "./Pages/AboutPage";
@@ -9,15 +9,16 @@ import { HashRouter as Router,Routes, Route} from "react-router-dom";
 
 function App(){
     return(
-        <HashRouter>
+        <Router>
         <Routes>
+            <Route path="/" element={<HomePage/>}/>
             <Route path="/Website" element = {<HomePage />} />
             <Route path="/Projects" element = {<Projects/>}/>
             <Route path="/Activities" element={<Activities/>}/>
             <Route path="/Gallery" element={<Gallery/>}/>
             <Route path="/About" element={<About/>}/>
         </Routes>
-        </HashRouter>
+        </Router>
     );
 }
 
