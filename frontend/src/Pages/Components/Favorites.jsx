@@ -3,10 +3,10 @@ import ReactDOM from "react-dom/client";
 import "../Styles/Favorites.css";
 
 import Line from "../Components/Line";
-import MayhemCover from "../photos/mayhem_cover.jpeg";
-import FameMonsterCover from "../photos/famemonster_cover.jpeg";
-import ThankUNextCover from "../photos/thankunext_cover.jpeg";
-import PlayButton from "../photos/play-button.png";
+import MayhemCover from "../photos/album_covers/mayhem_cover.jpeg";
+import FameMonsterCover from "../photos/album_covers/famemonster_cover.jpeg";
+import ThankUNextCover from "../photos/album_covers/thankunext_cover.jpeg";
+import PlayButton from "../photos/icons/play-button.png";
 
 
 const Favorites = () => {

@@ -4,8 +4,8 @@ import Favorites from "./Components/Favorites";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./Styles/AboutPage.css";
-// import Pic from "./photos/funDog.jpg";
-import Pic from "./photos/ChromaticaSelfie.jpg";
+// import Pic from "./photos/pfp/funDog.jpg";
+import Pic from "./photos/pfp/ChromaticaSelfie.jpg";
 
 const About = () => {
     return(

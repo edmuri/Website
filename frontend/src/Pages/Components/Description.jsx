@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "../Styles/Description.css";
 import Line from "../Components/Line";
-import GitHub from "../photos/github_icon.png";
-import Linkedin from "../photos/linkedin_icon.png";
-import Email from "../photos/email_icon.png";
+import GitHub from "../photos/icons/github_icon.png";
+import Linkedin from "../photos/icons/linkedin_icon.png";
+import Email from "../photos/icons/email_icon.png";
 
 const Description = () => {
     return(

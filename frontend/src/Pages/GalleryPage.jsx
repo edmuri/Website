@@ -6,7 +6,7 @@ import "./Styles/GalleryPage.css";
 const Gallery = () =>{
     return(
         <div className="wholePage">
-            <div className="topSection">
+            <div className="topGallerySection">
 
             </div>
             <footer className = "NavBar">
