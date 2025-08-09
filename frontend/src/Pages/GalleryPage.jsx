@@ -9,10 +9,8 @@ const Gallery = () =>{
             <div className="topSection">
 
             </div>
-            <footer className="NavBar">
-                <div>
-                    {<NavBar/>}
-                </div>
+            <footer className = "NavBar">
+                <NavBar/>
             </footer>
         </div>
     )

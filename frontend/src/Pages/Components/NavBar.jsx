@@ -37,7 +37,6 @@ const NavBar = () => {
     };
 
     return(
-        <footer>
             <nav className = "navbar">
                 <p>{'<'}</p>
                 <ul className = "navLinks">
@@ -49,7 +48,6 @@ const NavBar = () => {
                 </ul>
                 <p>{'>'}</p>
             </nav>
-        </footer>
     )
 }
 

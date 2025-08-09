@@ -24,7 +24,7 @@ const HomePage = () =>{
                 </div>
 
                 <footer className = "NavBar">
-                <div>{<NavBar/>}</div>
+                    <NavBar/>
                 </footer>
             </div>
             

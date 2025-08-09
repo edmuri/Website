@@ -1,10 +1,12 @@
 .mainAboutSection{
     display:flex;
     flex-direction: column;
+    height: 100vh;
 }
 .topSection{
     display:flex;
     padding:0%;
+    height:50%;
     /* background-color:chocolate; */
 }
 .embedded-container{

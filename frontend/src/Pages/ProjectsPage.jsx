@@ -4,8 +4,10 @@ import ReactDOM from "react-dom/client";
 
 const Projects = () => {
     return (
-        <div>
-            <NavBar/>
+        <div className="wholePage">
+            <footer className = "NavBar">
+                <NavBar/>
+            </footer>
         </div>
     )
 }
