@@ -11,7 +11,7 @@ import PlayButton from "../photos/play-button.png";
 
 const Favorites = () => {
     return(
-        <div className="mainFavoritesSection">
+        // <div className="mainFavoritesSection">
             <div className="favSongs">
                 <Line/>
                 <div className="song">
@@ -63,21 +63,7 @@ const Favorites = () => {
                 </div>
                 <Line/>
             </div>
-            <div className="favMovies">
-                <div className="movie">
 
-                </div>
-                <div className="movie">
-                    
-                </div>
-                <div className="movie">
-                    
-                </div>
-            </div>
-            <div className="favShows">
-
-            </div>
-        </div>
     )
 }
 

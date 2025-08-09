@@ -4,7 +4,8 @@ import Favorites from "./Components/Favorites";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./Styles/AboutPage.css";
-import Pic from "./photos/funDog.jpg";
+// import Pic from "./photos/funDog.jpg";
+import Pic from "./photos/ChromaticaSelfie.jpg";
 
 const About = () => {
     return(
@@ -12,9 +13,12 @@ const About = () => {
             <div className="topSection">
                 <AboutDesc/>
                 <div className="right-container">
-                    <h1>My favorite songs</h1>
-                    <div className="favoritesContainer">
-                        <Favorites/>
+                    <img className="img-container" src={Pic}/>
+                    <div className="fav-title-container">
+                        <h1>My favorite songs</h1>
+                        <div className="favoritesContainer">
+                            <Favorites/>
+                        </div>
                     </div>
                 </div>
             </div>
