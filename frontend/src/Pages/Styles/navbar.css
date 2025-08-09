@@ -1,9 +1,11 @@
 .navbar{
     position:absolute;
     display:flex;
+    flex-direction: row;
+    row-gap: 1%;
     align-items: center;
     justify-items: center;
-    width:75%;
+    width:clamp(41rem,45vw,100rem);
 }
 .navLinks{
     width:100%;
@@ -11,7 +13,7 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-    column-gap: 10%;
+    column-gap: 9%;
 }
 
 .navLinks>li{
