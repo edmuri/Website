@@ -1,4 +1,19 @@
-.Page{
+.wholePage{
     display:flex;
     flex-direction: column;
+}
+.topProjectsPage{
+    display:flex;
+    justify-content: center;
+    column-gap: 5%;
+    /* padding:5%; */
+}
+.projectDisplay{
+    height:100%;
+    width:100%;
+    background-color:yellow;
+}
+.projectButton:hover{
+    background-color:#ffffff;
+    color:black;
 }

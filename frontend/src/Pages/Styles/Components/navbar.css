@@ -1,0 +1,67 @@
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(41rem, 45vw, 100rem);
+    cursor: pointer;
+}
+
+.navbar p.navbarText {
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all 0.7s ease;
+    z-index: 10;
+    margin: 0;
+}
+.navLinks {
+    opacity: 0;
+    width: 0;
+    list-style: none;
+    overflow: hidden;
+    transition: opacity 0.4s ease, width 0.7s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar:hover .navLinks {
+    opacity: 1;
+    width: 100%;
+    position: relative;
+    left: auto;
+    transform: none;
+}
+
+.navbar:hover p.navbarText:first-child {
+    transform: translateX(-8rem);
+}
+
+.navbar:hover p.navbarText:last-child {
+    transform: translateX(8rem);
+}
+
+.navLinks li.navbarText {
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.navLinks li.navbarText:hover {
+    color: white;
+}
+
+.navbarText {
+    color: rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+.navbar:hover .navbarText {
+    color: white;
+}

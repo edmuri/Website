@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "../Styles/Favorites.css";
+import "../Styles/Components/Favorites.css";
 
 import Line from "../Components/Line";
 import MayhemCover from "../photos/album_covers/mayhem_cover.jpeg";

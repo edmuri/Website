@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import "../Styles/navbar.css";
+import "../Styles/Components/navbar.css";
 
 
 
@@ -38,15 +38,15 @@ const NavBar = () => {
 
     return(
             <nav className = "navbar">
-                <p>{'<'}</p>
+                <p className="navbarText">{'<'}</p>
                 <ul className = "navLinks">
-                    <li onClick={handleToHome}>HOME</li>
-                    <li onClick={handleToProjects}>PROJECTS</li>
-                    <li onClick={handleToActivities}>ACTIVITIES</li>
-                    <li onClick={handleToAbout}>ABOUT</li>
-                    <li onClick={handleToGallery}>GALLERY</li>
+                    <li className="navbarText" onClick={handleToHome}>HOME</li>
+                    <li className="navbarText" onClick={handleToProjects}>PROJECTS</li>
+                    <li className="navbarText" onClick={handleToActivities}>ACTIVITIES</li>
+                    <li className="navbarText" onClick={handleToAbout}>ABOUT</li>
+                    {/* <li onClick={handleToGallery}>GALLERY</li> */}
                 </ul>
-                <p>{'>'}</p>
+                <p className="navbarText" >{'>'}</p>
             </nav>
     )
 }

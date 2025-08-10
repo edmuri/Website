@@ -11,12 +11,7 @@ App{
    justify-content: center;
    align-items: center; 
 }
-/* .NavBar{
-    position:fixed;
-    bottom:0;
-    align-self: center;
-    width:75%;
-} */
+
  .NavBar {
     padding:2%;
     position: fixed;

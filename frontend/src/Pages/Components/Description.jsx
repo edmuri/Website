@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "../Styles/Description.css";
+import "../Styles/Components/Description.css";
 import Line from "../Components/Line";
 import GitHub from "../photos/icons/github_icon.png";
 import Linkedin from "../photos/icons/linkedin_icon.png";

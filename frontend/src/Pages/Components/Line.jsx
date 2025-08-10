@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "../Styles/line.css"
+import "../Styles/Components/line.css"
 
 const Line = () => {
     return(
