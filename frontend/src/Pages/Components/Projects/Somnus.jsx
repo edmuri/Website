@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const Somnos = () => {
+const Somnus = () => {
     return(
-        <div className="Somnos">
+        <div className="Somnus">
 
         </div>
     )
 }
 
-export default Somnos
+export default Somnus

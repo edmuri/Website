@@ -23,7 +23,7 @@ const Description = () => {
                     filters and create playlists for them. Our team is currently expanding to create more options for users.
                 </p>
                 <p className="Text">
-                    SOMNOS: A full stack project that allows users to share their dreams upon awaking with other 
+                    SOMNUS: A full stack project that allows users to share their dreams upon awaking with other 
                     users to create an interactive experience to relating to one another and getting interspective on the meanings
                     for your nights!
                 </p>
