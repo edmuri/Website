@@ -1,14 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import "../../Styles/Projects/Somnus.css";
-
-const Somnus = () => {
+const Naldooshi = () => {
     return(
         <div className="Somnus">
-            <h1>Somnus</h1>
+
         </div>
     )
 }
 
-export default Somnus
+export default Naldooshi

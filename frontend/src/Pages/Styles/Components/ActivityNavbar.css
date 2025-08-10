@@ -1,0 +1,36 @@
+.activities-nav-div{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: clamp(41rem, 50vw, 50rem);
+    cursor: pointer;
+    width:20%;
+    background:linear-gradient(to right,#dbcdcd11,#1e1d1d);
+    background-blend-mode: overlay;
+}
+.activitiesNav{
+    opacity: 0;
+    color:white;
+    list-style:none;
+    overflow:hidden;
+    transition: opacity 1s ease;
+    width:100%;
+    padding:5%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+.activityButton{
+    text-align: center;
+    padding:1%;
+    width:100%;
+    font-size: clamp(0.8rem,1.2vw,200rem);
+}
+.activities-nav-div:hover .activitiesNav{
+    opacity: 1;
+    color:white;
+    /* height:100%; */
+}

@@ -11,7 +11,7 @@
 .projectDisplay{
     height:100%;
     width:100%;
-    background-color:yellow;
+    /* background-color:yellow; */
 }
 .projectButton:hover{
     background-color:#ffffff;

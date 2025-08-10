@@ -1,39 +1,33 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import {useState} from "react";
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import "../Styles/Components/ProjectNavbar.css";
 
-const ProjectNavbar = () => {
+const ProjectNavbar = ({activeProject, onProjectChange, projects}) => {
 
-    const handleSystrum = () =>{
-
-    };
-
-    const handleSomnus = () => {
-
-    };
-
-    const handleCommuterConnect = () =>{
-
-    };
-
-    const handleOneGram = () =>{
-
-    };
-
-    const handleArcadeSimulator = () => {
-
+    const projectNames = {
+        // Naldooshi:"Naldooshi",
+        Somnus: "Somnus",
+        Systrum: "Systrum",
+        Commuter_Connect:"Commuter Connect",
+        OneGram: "OneGram",
+        Arcade_Simulator: "Arcade Simulator"
     };
 
     return(
         <div className="project-nav-div">
             <ul className="projectsNav">
-                <li className="projectButton" onClick={handleSystrum}>Systrum</li>
-                <li className="projectButton" onClick={handleSomnus}>Somnus</li>
-                <li className="projectButton" onClick={handleCommuterConnect}>Commuter Connect</li>
-                <li className="projectButton" onClick={handleOneGram}>OneGram</li>
-                <li className="projectButton" onClick={handleArcadeSimulator}>Arcade Simulator</li>
+                {projects.map(projectKey=> (
+                    <li 
+                        key={projectKey}
+                        className={`projectButton ${activeProject === projectKey ? 'active' :''}`}
+                        onClick={() => onProjectChange(projectKey)}
+                        >
+                            {projectNames[projectKey] || projectKey}
+                        </li>
+                ))}
             </ul>
         </div>
     )

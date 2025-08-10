@@ -41,8 +41,8 @@ const NavBar = () => {
                 <p className="navbarText">{'<'}</p>
                 <ul className = "navLinks">
                     <li className="navbarText" onClick={handleToHome}>HOME</li>
-                    {/* <li className="navbarText" onClick={handleToProjects}>PROJECTS</li>
-                    <li className="navbarText" onClick={handleToActivities}>ACTIVITIES</li> */}
+                    <li className="navbarText" onClick={handleToProjects}>PROJECTS</li>
+                    <li className="navbarText" onClick={handleToActivities}>ACTIVITIES</li>
                     <li className="navbarText" onClick={handleToAbout}>ABOUT</li>
                     {/* <li onClick={handleToGallery}>GALLERY</li> */}
                 </ul>
