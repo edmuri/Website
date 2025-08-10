@@ -18,6 +18,10 @@ const ProjectNavbar = () => {
 
     };
 
+    const handleOneGram = () =>{
+
+    };
+
     const handleArcadeSimulator = () => {
 
     };
@@ -28,6 +32,7 @@ const ProjectNavbar = () => {
                 <li className="projectButton" onClick={handleSystrum}>Systrum</li>
                 <li className="projectButton" onClick={handleSomnus}>Somnus</li>
                 <li className="projectButton" onClick={handleCommuterConnect}>Commuter Connect</li>
+                <li className="projectButton" onClick={handleOneGram}>OneGram</li>
                 <li className="projectButton" onClick={handleArcadeSimulator}>Arcade Simulator</li>
             </ul>
         </div>
