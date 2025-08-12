@@ -14,7 +14,7 @@ const About = () => {
             <div className="topSection">
                 <AboutDesc/>
                 <div className="right-container">
-                    <img className="img-container" src={Pic}/>
+                    <div className="img-container"><img src={Pic}/></div>
                     <div className="fav-title-container">
                         <h1>My favorite songs</h1>
                         <div className="favoritesContainer">
