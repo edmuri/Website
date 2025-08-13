@@ -1,0 +1,54 @@
+.project-display-div{
+    display:flex;
+    flex-direction: column;
+    background-color: red;
+}
+.project-title-date-summary-container{
+    background-color:orange;
+    display:flex;
+}
+.Project-title{
+    color:white;
+    background-color: blue;
+}
+.Project-dates{
+    align-self:end;
+    color:white;
+    background-color:gray;
+}
+.Project-summary{
+
+}
+.Project-role{
+
+}
+.Link-icon-container{
+    width:5%;
+}
+
+.photo-carousel{
+    display:flex;
+    align-items: center;
+    column-gap: 2%;
+    background-color: yellow;
+    justify-content: center;
+}
+.Project-img-container{
+    width: 50%;
+}
+.Project-img{
+    object-fit: contain;
+}
+.Project-description-div{
+    background-color: green;
+}
+.Project-description{
+
+}
+.Project-features{
+
+}
+.Project-tech{
+
+}
+

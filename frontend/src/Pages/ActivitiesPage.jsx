@@ -5,9 +5,9 @@ import {useState} from "react";
 import "./Styles/ActivitiesPage.css";
 
 import ActivityNavbar from "./Components/ActivityNav";
-import Teaching_Assistant from "./Components/Activities/Teaching_Assistant";
-import Capture_The_Flame from "./Components/Activities/Capture_The_Flame";
-import WICYS from "./Components/Activities/WICYS";
+// import Teaching_Assistant from "./Components/Activities/Teaching_Assistant";
+// import Capture_The_Flame from "./Components/Activities/Capture_The_Flame";
+// import WICYS from "./Components/Activities/WICYS";
 
 const Activities = () =>{
 

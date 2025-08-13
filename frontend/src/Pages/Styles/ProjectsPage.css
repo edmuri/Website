@@ -17,3 +17,7 @@
     background-color:#ffffff;
     color:black;
 }
+.projectDisplay{
+    background-color:blue;
+    min-height:100%;
+}
