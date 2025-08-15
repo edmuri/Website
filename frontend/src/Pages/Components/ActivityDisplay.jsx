@@ -6,17 +6,17 @@ import "../Styles/Components/ProjectDisplay.css";
 const ActivityDisplay = ({activeActivity, onActivityChange, Activity}) => {
 
     const activityDetails = {     
-        Somnus: {
-                    title: "Somnus",
+        Teaching_Assistant: {
+                    title: "Teaching Assistant",
                     description: ""
         },
-        Systrum: {
-                    title: "Systrum",
+        Capture_The_Flame: {
+                    title: "Capture The Flame",
                     description: ""
                     
         },
-        Commuter_Connect: {
-                    title: "Commuter Connect",
+        WICYS: {
+                    title: "WICYS",
                     description: ""
         },
         None: {

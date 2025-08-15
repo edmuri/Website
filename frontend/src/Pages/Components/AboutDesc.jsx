@@ -19,7 +19,7 @@ const AboutDesc = () => {
             <section className="listings">
                 {/* <Line/> */}
                 <p>
-                    Coursework: Advanced Data Structures, Computer Algorithms, Machine Organization, Operating Systems
+                    Coursework: Advanced Data Structures, Computer Algorithms, Cryptography, Database Systems, Machine Organization, Operating Systems, Secure Web App Development
                 </p>
                 <div className="listingLine"><Line/></div>
                 <p>

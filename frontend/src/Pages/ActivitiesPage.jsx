@@ -5,6 +5,7 @@ import {useState} from "react";
 import "./Styles/ActivitiesPage.css";
 
 import ActivityNavbar from "./Components/ActivityNav";
+import ActivityDisplay from "./Components/ActivityDisplay";
 // import Teaching_Assistant from "./Components/Activities/Teaching_Assistant";
 // import Capture_The_Flame from "./Components/Activities/Capture_The_Flame";
 // import WICYS from "./Components/Activities/WICYS";
@@ -14,9 +15,9 @@ const Activities = () =>{
     const [activeActivity, setActiveActivity] = useState('Teaching_Assistant');
 
     const activities = {
-        Teaching_Assistant: <Teaching_Assistant/>,
-        Capture_The_Flame: <Capture_The_Flame/>,
-        WICYS:<WICYS/>
+        Teaching_Assistant:"",
+        Capture_The_Flame: "",
+        WICYS:""
     };
     return(
         <div className="mainContent">
@@ -27,7 +28,11 @@ const Activities = () =>{
                     activities = {Object.keys(activities)}
                 />
                 <section className="activityDisplay">
-                    {activities[activeActivity]}
+                    <ActivityDisplay 
+                    activeActivity={activeActivity}
+                    onActivityChange={setActiveActivity}
+                    activities = {Object.keys(activities)} 
+                    />
                 </section>
             </div>
             <footer className = "NavBar">
