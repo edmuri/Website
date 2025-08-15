@@ -1,23 +1,28 @@
-.wholePage{
+.wholeProjectPage{
+    height:100%;
     display:flex;
+    align-items: stretch;
     flex-direction: column;
 }
 .topProjectsPage{
+    /* background-color: purple; */
+    height:100%;
     display:flex;
-    justify-content: center;
-    column-gap: 5%;
-    /* padding:5%; */
+    /* justify-content: center; */
+    column-gap: 2%;
+}
+.project-nav-bar{
+    flex:0 0 15%;
 }
 .projectDisplay{
     height:100%;
-    width:100%;
+    display:flex;
+    /* align-content: center;
+    justify-content: center; */
+    padding:1%;
     /* background-color:yellow; */
 }
 .projectButton:hover{
     background-color:#ffffff;
     color:black;
-}
-.projectDisplay{
-    background-color:blue;
-    min-height:100%;
 }

@@ -9,24 +9,26 @@ import ProjectDisplay from "./Components/ProjectDisplay";
 
 const Projects = () => {
 
-    const [activeProject, setActiveProject] = useState('Systrum');
+    const [activeProject, setActiveProject] = useState('Commuter_Connect');
 
     const projects = {
-        Somnus:"",
-        Systrum:"",
+        // Somnus:"",
+        // Systrum:"",
         Commuter_Connect:"",
         OneGram:"",
         Arcade_Simulator:""
     };
 
     return (
-        <div className="wholePage">
+        <div className="wholeProjectPage">
             <div className="topProjectsPage">
-                <ProjectNavbar
-                    activeProject={activeProject}
-                    onProjectChange={setActiveProject}
-                    projects={Object.keys(projects)}
-                />
+                <div className="project-nav-bar">
+                    <ProjectNavbar
+                        activeProject={activeProject}
+                        onProjectChange={setActiveProject}
+                        projects={Object.keys(projects)}
+                    />
+                </div>
                 <section className="projectDisplay">
                 <ProjectDisplay
                     activeProject={activeProject}

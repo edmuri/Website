@@ -1,54 +1,134 @@
 .project-display-div{
+    /* background-color:brown; */
     display:flex;
     flex-direction: column;
-    background-color: red;
+    min-height:85vh;
 }
+
+/*TOP SECTION*/
 .project-title-date-summary-container{
-    background-color:orange;
+    /* padding-bottom:1%; */
+    display:block;
+}
+.title-date-link{
+    padding-right:3%;
     display:flex;
+}
+.title-date{
+    padding-left:3%;
 }
 .Project-title{
     color:white;
-    background-color: blue;
 }
 .Project-dates{
-    align-self:end;
+    justify-self: start;
+    padding-left:0%;
     color:white;
-    background-color:gray;
 }
 .Project-summary{
-
+    justify-self: center;
+    margin-bottom:top;
 }
 .Project-role{
-
+    /* background-color:pink; */
 }
 .Link-icon-container{
-    width:5%;
+    filter:invert(1);
+    max-width:6%;
+    margin-left:auto;
+}
+.Project-link>img{
+    object-fit:contain;
 }
 
+/*BOTTOM SECTION*/
+.projectDetails{
+    /* margin-top: auto; */
+    display: flex;
+}
+.description-photo-section{
+    /* background-color:red; */
+    width:100%;
+    /* margin-top:auto; */
+    display:flex;
+    flex-direction: column;
+}
+.Project-description-div{
+    /* background-color: green; */
+    padding:2%;
+    width:35%;
+    
+}
+.Project-description{
+    font-size:clamp(0.5rem,1vw,15rem);
+}
+.carousel-container{
+    max-height: 100%;
+    width:100%;
+    margin-top:auto;
+    padding:2%;
+}
+.Line-container{
+    margin-left:20%;
+    margin-right:20%;
+    display:flex;
+}
 .photo-carousel{
     display:flex;
     align-items: center;
     column-gap: 2%;
-    background-color: yellow;
     justify-content: center;
 }
 .Project-img-container{
-    width: 50%;
+    /* max-width: 60%;
+    display:flex; */
+    width: 60%;
+    aspect-ratio: 16 / 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-shrink: 0;
 }
 .Project-img{
     object-fit: contain;
+    max-height:100%;
+    max-width:100%;
 }
-.Project-description-div{
-    background-color: green;
-}
-.Project-description{
 
+/* BOTTOM RIGHT SECTION */
+.Project-extra-details-div{
+    margin-top:auto;
+    /* background-color: rgb(128, 0, 100); */
+    margin-left:5%;
+    margin-right:6%;
+    display:flex;
+}
+h3{
+    color:white;
 }
 .Project-features{
-
+    /* background-color:rgb(6, 4, 69); */
+    /* margin-left:auto; */
+}
+.Project-features-list{
+    /* background-color: white; */
+}
+.feature-list{
+    color:white;
 }
 .Project-tech{
-
+    margin-left:auto;
+    padding:1%;
+    /* background-color:red; */
+}
+.tech-list{
+    /* background-color:gray; */
+    /* max-width: 80%; */
+    columns: 2;
+}
+.tech-list-items{
+    color:white;
+    /* padding-right:5%; */
 }
 

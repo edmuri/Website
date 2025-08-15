@@ -3,11 +3,11 @@
     display: flex;
     align-items: center;
     justify-items: center;
-    height: clamp(41rem, 50vw, 50rem);
+    height: clamp(41rem, 55vw, 55rem);
     cursor: pointer;
-    width:20%;
     background:linear-gradient(to right,#dbcdcd11,#1e1d1d);
     background-blend-mode: overlay;
+    /* background-color:red; */
 }
 .projectsNav{
     opacity: 0;

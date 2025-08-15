@@ -9,8 +9,8 @@ const ProjectNavbar = ({activeProject, onProjectChange, projects}) => {
 
     const projectNames = {
         // Naldooshi:"Naldooshi",
-        Somnus: "Somnus",
-        Systrum: "Systrum",
+        // Somnus: "Somnus",
+        // Systrum: "Systrum",
         Commuter_Connect:"Commuter Connect",
         OneGram: "OneGram",
         Arcade_Simulator: "Arcade Simulator"
