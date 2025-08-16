@@ -34,7 +34,7 @@ const AboutDesc = () => {
             
             
             <p>
-                I am partial to backend development as I prefer to logical standpoint and approaches to their situations. I intend on working on backend and operating systems upon graduation college. 
+                I am partial to backend development as I prefer the logical standpoint and approaches to their situations. I intend on working on backend and operating systems upon graduation college. 
                 I am very excited to get into the field and hopefully make some kind of impact!
             </p>
         </div>
