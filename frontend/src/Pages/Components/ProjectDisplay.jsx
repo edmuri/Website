@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {useState} from "react";
+import {useState, useEffect} from "react";
 import "../Styles/Components/ProjectDisplay.css";
 import Github from "../photos/icons/github_icon.png";
 import Line from "../Components/Line";
@@ -29,6 +29,35 @@ import TargetShooter from "../photos/projectPhotos/Arcade_Simulator/Target_Shoot
 import GuessNumber from "../photos/projectPhotos/Arcade_Simulator/Guess_The_Number.png";
 
 const ProjectDisplay = ({activeProject, onProjectChange, projects}) => {
+    let index=0;
+
+    const [activeIndex,setIndex] = useState(0);
+
+    useEffect(() => {
+    setIndex(0);
+    }, [activeProject]);
+
+
+    const imageToggleLeft = () => {
+        let size = projectDetails[activeProject].images.length;
+        if(activeIndex == 0){
+            setIndex(size-1);
+        }
+        else{
+            setIndex(activeIndex-1);
+        }
+    };
+
+    const imageToggleRight = () =>{
+        let size = projectDetails[activeProject].images.length;
+        if(activeIndex == (size-1)){
+            setIndex(0);
+        }
+        else{
+            console.log("Inside else");
+            setIndex(activeIndex+1)
+        }
+    };
 
     const projectDetails = {     
         Somnus: {
@@ -141,11 +170,15 @@ const ProjectDisplay = ({activeProject, onProjectChange, projects}) => {
                 <div className="carousel-container">
                     <div className="Line-container"><Line/></div>
                     <section className="photo-carousel">
-                        <p>{'<'}</p>
+                        <button className="projectImageToggle"
+                                    onClick = {imageToggleLeft}
+                        >{'<'}</button>
                         <div className="Project-img-container">
-                            <img className="Project-img" src={projectDetails[activeProject].images[0]}/>
+                            <img className="Project-img" src={projectDetails[activeProject].images[activeIndex]}/>
                         </div>
-                        <p>{">"}</p>
+                        <button className="projectImageToggle"
+                                    onClick={imageToggleRight}
+                        >{">"}</button>
                     </section>
                     <div className="Line-container"><Line/></div>
                 </div>  
