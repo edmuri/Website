@@ -13,7 +13,7 @@ const Projects = () => {
 
     const projects = {
         // Somnus:"",
-        // Systrum:"",
+        Systrum:"",
         Commuter_Connect:"",
         OneGram:"",
         Arcade_Simulator:""
