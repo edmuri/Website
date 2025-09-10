@@ -58,6 +58,7 @@
     border:none;
     color:white;
     font-size:clamp(1rem,2vw,10rem);
+    cursor:pointer;
 }
 .Project-description-div{
     /* background-color: green; */

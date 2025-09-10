@@ -6,7 +6,8 @@ import ReactDOM from "react-dom/client";
 import "./Styles/AboutPage.css";
 // import Pic from "./photos/pfp/funDog.jpg";
 // import Pic from "./photos/pfp/ChromaticaSelfie.jpg";
-import Pic from "./photos/pfp/camo_hat_self.jpg";
+import Pic from "./photos/pfp/rainbow_self_photo_2.jpg";
+// import Pic from "./photos/pfp/downstairs.jpg";
 
 const About = () => {
     return(
