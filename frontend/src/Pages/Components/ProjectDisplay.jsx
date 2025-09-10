@@ -8,6 +8,8 @@ import Line from "../Components/Line";
 import Tester from "../photos/projectPhotos/tester.png";
 
 {/* SYSTRUM ASSETS */}
+import Systrum_Landing from "../photos/projectPhotos/Systrum/Systrum_Landing.png";
+import Systrum_Results from "../photos/projectPhotos/Systrum/Systrum_Results.png";
 
 {/* COMMUTER CONNECT ASSETS */}
 import Commuter_Login from "../photos/projectPhotos/Commuter_Connect/Commuter_Connect_Login.png";
@@ -81,7 +83,7 @@ const ProjectDisplay = ({activeProject, onProjectChange, projects}) => {
                     features:["Uses Spotify's API to create playlists based on user input", "Uses a SQL database to optimize data management",
                                 "Incorporates User Authentication through Spotify","Dynamic frontend rendering for playlist selection"],
                     link:"https://github.com/edmuri/Systrum",
-                    images:[Tester]
+                    images:[Systrum_Landing,Systrum_Results]
         },
         Commuter_Connect: {
                     title: "Commuter Connect",
