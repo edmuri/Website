@@ -15,11 +15,13 @@ const HomePage = () =>{
                     <Description/>
                     </section>
                     <section id="photo-container">
+                        <div id="photo-box">
                         <div className="Line">{<Line/>}</div>
                         <div id="photo-div">
                             <img src={Pfp} alt="Description" />
                         </div>
                         <div className="Line">{<Line/>}</div>
+                        </div>
                     </section>
                 </div>
 

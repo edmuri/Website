@@ -8,8 +8,8 @@ import "../Styles/Components/ProjectNavbar.css";
 const ProjectNavbar = ({activeProject, onProjectChange, projects}) => {
 
     const projectNames = {
-        // Naldooshi:"Naldooshi",
-        // Somnus: "Somnus",
+        Naldooshi:"Naldooshi",
+        Somnus: "Somnus",
         Systrum: "Systrum",
         Commuter_Connect:"Commuter Connect",
         OneGram: "OneGram",

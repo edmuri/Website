@@ -26,7 +26,7 @@ body{
     justify-items: center;
     align-items: center;
     width:100%;
-    padding:0%;
+    padding:2% 0 0 2%;
 }
 
 .Text,p{
@@ -44,6 +44,15 @@ body{
     justify-items:center;
     justify-content: center;
     row-gap:2%;
+}
+
+#photo-box{
+    /* border:2px solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.597);
+    border-radius: 25px; */
+    padding:3% 0 3% 0%;
+    justify-items: center;
+    align-content: center;
 }
 
 #photo-div{

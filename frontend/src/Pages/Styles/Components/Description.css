@@ -1,9 +1,12 @@
 .description{
-    /* background-color:red; */  
+    /* background-color:red;   */
     display:flex;
     flex-direction: column;
     row-gap: 0%;
     padding:5%;
+    border:2px solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.597);
+    border-radius: 25px;
 }
 .Links{
     display:flex;

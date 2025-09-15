@@ -9,18 +9,24 @@
     height:100%;
     display:flex;
     /* justify-content: center; */
-    column-gap: 2%;
+    column-gap: 15%;
 }
 .project-nav-bar{
     flex:0 0 15%;
 }
 .projectDisplay{
     height:100%;
-    display:flex;
+    width:65%;
+    /* display:flex; */
     /* align-content: center;
     justify-content: center; */
-    padding:1%;
+    /* padding:1%; */
     /* background-color:yellow; */
+    margin-top: 1%;
+    justify-self: center;
+    border:2px solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.597);
+    border-radius: 25px;
 }
 .projectButton:hover{
     background-color:#ffffff;
