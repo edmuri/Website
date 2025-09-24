@@ -9,7 +9,7 @@ const AboutDesc = () => {
             <h1>Eduardo Murillo</h1>
             <Line/>
             <p>
-                I am a 22 year old programmer going into my senior year!
+                I am a 22 year old programmer currently in my senior year!
             </p>
             <p>
                 I have spent my last two years at UIC expanding my knowledge in programming through the rigorous curriculum at school.All classes
