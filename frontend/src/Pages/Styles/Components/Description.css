@@ -7,6 +7,8 @@
     border:2px solid;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.597);
     border-radius: 25px;
+    background-color: #1e1d1d;
+    z-index: 1;
 }
 .Links{
     display:flex;

@@ -5,7 +5,7 @@
     justify-items: center;
     height: clamp(41rem, 55vw, 55rem);
     cursor: pointer;
-    background:linear-gradient(to right,#dbcdcd11,#1e1d1d);
+    background:linear-gradient(to right,#dbcdcd11,#1e1d1d4e);
     background-blend-mode: overlay;
     /* background-color:red; */
 }

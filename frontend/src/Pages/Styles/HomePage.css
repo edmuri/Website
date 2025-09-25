@@ -27,6 +27,7 @@ body{
     align-items: center;
     width:100%;
     padding:2% 0 0 2%;
+    /* background-color: black; */
 }
 
 .Text,p{
@@ -60,6 +61,7 @@ body{
     justify-content: center;
     border-radius: 25px;
     border:2px solid white;
+    /* background:black; */
     overflow:hidden;
     width:65%;
     padding:0%;
@@ -69,6 +71,8 @@ img{
     height:100%;
     width:100%;
     padding:0%;
+    z-index: 1;
+    /* opacity:100; */
 }
 .Line{
     width:70%;
