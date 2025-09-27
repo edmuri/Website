@@ -50,33 +50,33 @@
     position: absolute;
     width: 800px;
     height: 800px;
-    /* background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 30%, 
-    transparent 70%); */
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 30%, 
+    transparent 70%);
     border-radius: 50% 30% 60% 40%;
     top: -200px;
     left: -200px;
     animation: swirl1 20s ease-in-out infinite;
-    /* filter: blur(2px); */
+    filter: blur(2px);
 }
 
 .swirl-2 {
     position: absolute;
     width: 600px;
     height: 600px;
-    /* background: radial-gradient(ellipse at 30% 70%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 40%, transparent 80%); */
+    background: radial-gradient(ellipse at 30% 70%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.08) 40%, transparent 80%);
     border-radius: 60% 40% 30% 70%;
     top: 20%;
     right: -150px;
     animation: swirl2 25s ease-in-out infinite;
-    /* filter: blur(3px); */
+    filter: blur(3px);
 }
 
 .swirl-3 {
     position: absolute;
     width: 700px;
     height: 500px;
-    /* background: radial-gradient(ellipse at 60% 30%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.06) 50%, 
-    transparent 85%); */
+    background: radial-gradient(ellipse at 60% 30%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.06) 50%, 
+    transparent 85%);
     border-radius: 40% 60% 50% 30%;
     bottom: -100px;
     left: 10%;
@@ -88,7 +88,7 @@
     position: absolute;
     width: 500px;
     height: 700px;
-    /* background: radial-gradient(ellipse at 80% 20%, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.05) 45%, transparent 90%); */
+    background: radial-gradient(ellipse at 80% 20%, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.05) 45%, transparent 90%);
     border-radius: 30% 70% 40% 60%;
     top: 40%;
     left: 50%;
@@ -100,8 +100,8 @@
     position: absolute;
     width: 900px;
     height: 400px;
-    /* background: radial-gradient(ellipse at 20% 80%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.04) 60%, 
-    transparent 95%); */
+    background: radial-gradient(ellipse at 20% 80%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.04) 60%, 
+    transparent 95%);
     /* background: white; */
     border-radius: 70% 30% 60% 40%;
     top: 60%;

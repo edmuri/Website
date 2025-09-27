@@ -9,7 +9,7 @@
     height:100%;
     display:flex;
     /* justify-content: center; */
-    column-gap: 15%;
+    column-gap: 11%;
 }
 .project-nav-bar{
     flex:0 0 15%;
