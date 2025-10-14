@@ -10,6 +10,9 @@ import Tester from "../photos/projectPhotos/tester.png";
 {/* SYSTRUM ASSETS */}
 import Systrum_Landing from "../photos/projectPhotos/Systrum/Systrum_Landing.png";
 import Systrum_Results from "../photos/projectPhotos/Systrum/Systrum_Results.png";
+import Systrum_Results1 from "../photos/projectPhotos/Systrum/Systrum_Results1.png";
+import Systrum_Create from "../photos/projectPhotos/Systrum/Systrum_Create.png";
+import Systrum_Group from "../photos/projectPhotos/Systrum/Systrum_Group_Photo.jpg";
 
 {/* COMMUTER CONNECT ASSETS */}
 import Commuter_Login from "../photos/projectPhotos/Commuter_Connect/Commuter_Connect_Login.png";
@@ -75,15 +78,18 @@ const ProjectDisplay = ({activeProject, onProjectChange, projects}) => {
         },
         Systrum: {
                     title: "Systrum",
-                    date: "July 2025 - Present",
+                    date: "July 2025 - September 2025",
                     summary: "A fun new way to create platlists for spotify",
-                    description: "A full stack interactive app",
+                    description: `A full stack interactive app that maps out a message to a playlist that's ready to send to your spotify account. This was derived
+                                    from the trend of creating playlists that create a sentence and my team and I dove fully into it to automate that process for you.
+                                    This was my first time being a project manager for a project like this and am so proud of how it turned out. I had so much fun and cannot
+                                    wait for my next one.`,
                     role: "Project Manager, Backend Developer",
                     tech: ["Flask", "React", "HTML", "CSS", "JavaScript", "Python", "SQL", "Spotify API"],
                     features:["Uses Spotify's API to create playlists based on user input", "Uses a SQL database to optimize data management",
                                 "Incorporates User Authentication through Spotify","Dynamic frontend rendering for playlist selection"],
                     link:"https://github.com/edmuri/Systrum",
-                    images:[Systrum_Landing,Systrum_Results]
+                    images:[Systrum_Landing,Systrum_Group,Systrum_Create,Systrum_Results,Systrum_Results1]
         },
         Commuter_Connect: {
                     title: "Commuter Connect",
@@ -164,11 +170,11 @@ const ProjectDisplay = ({activeProject, onProjectChange, projects}) => {
             
             {/* BOTTOM SECTION */}
             <section className="projectDetails">
+            <div className="topPart">
                 <div className="Project-description-div">
                     <p className="Project-description">{projectDetails[activeProject].description}</p>
                 </div>
 
-                <section className="description-photo-section">
                 <div className="carousel-container">
                     <div className="Line-container"><Line/></div>
                     <section className="photo-carousel">
@@ -183,8 +189,9 @@ const ProjectDisplay = ({activeProject, onProjectChange, projects}) => {
                         >{">"}</button>
                     </section>
                     <div className="Line-container"><Line/></div>
-                </div>  
-
+                </div> 
+                </div> 
+                
                 <div className="Project-extra-details-div">
                     <div className="Project-features">
                         <h3>Features</h3>
@@ -208,7 +215,6 @@ const ProjectDisplay = ({activeProject, onProjectChange, projects}) => {
                         </ul>
                     </div>
                 </div>
-                </section>
             </section>
         </div>
     )

@@ -16,8 +16,13 @@ const AboutDesc = () => {
                 have contributed greatly to my love of the field. I even became a teaching assistant for UIC's Machine Organization class in the Spring
                 of 2025; facilitating labs, office hours, and creating supplemental media resources for the students in the class. 
             </p>
-            <section className="listings">
-                {/* <Line/> */}
+            <p>
+                I am currently the Experience Team Lead for the Capture the Flame cyber security competiton! I spend most of my time doing research
+                for my challenges while mentoring the rest of my team and leading them into making the compeition the best it can be!
+            </p>
+
+            {/* <section className="listings">
+                <Line/>
                 <p>
                     Coursework: Advanced Data Structures, Computer Algorithms, Cryptography, Database Systems, Machine Organization, Operating Systems, Secure Web App Development
                 </p>
@@ -30,7 +35,7 @@ const AboutDesc = () => {
                     Frameworks: FLASK, REACT
                 </p>
                 <div className="listingLine"><Line/></div>
-            </section>
+            </section> */}
             
             
             <p>

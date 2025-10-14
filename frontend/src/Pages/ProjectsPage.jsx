@@ -9,7 +9,7 @@ import ProjectDisplay from "./Components/ProjectDisplay";
 
 const Projects = () => {
 
-    const [activeProject, setActiveProject] = useState('Commuter_Connect');
+    const [activeProject, setActiveProject] = useState('Systrum');
 
     const projects = {
         // Somnus:"",

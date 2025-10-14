@@ -43,7 +43,16 @@
 /*BOTTOM SECTION*/
 .projectDetails{
     /* margin-top: auto; */
+    padding:0;
     display: flex;
+    flex-direction: column;
+}
+.topPart{
+    display:flex;
+    /* flex-direction: column; */
+    /* height:60%; */
+    /* background-color: yellow; */
+
 }
 .description-photo-section{
     /* background-color:red; */
@@ -61,9 +70,12 @@
 }
 .Project-description-div{
     /* background-color: green; */
-    padding:2%;
-    width:35%;
+    padding-left:1%;
     
+    width:35%;
+}
+.Project-description-div>p{
+    font-size:clamp(0.1rem,0.9vw,10rem);
 }
 .Project-description{
     font-size:clamp(0.5rem,1vw,15rem);
