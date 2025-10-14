@@ -104,7 +104,7 @@
         margin-left:5%; */
         margin:2%;
         height:45%;
-        min-width:3vh;
+        min-width:1.5vh;
     }
     .img-container{
         margin:-1%;
@@ -118,7 +118,7 @@
         font-size:1.2rem;
     }
     .aboutDesc>p{
-        font-size:0.9rem;
+        font-size:0.68rem;
     }
     .fav-title-container{
         height:100%;
