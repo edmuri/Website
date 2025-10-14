@@ -21,6 +21,7 @@ const AboutDesc = () => {
                 for my challenges while mentoring the rest of my team and leading them into making the compeition the best it can be!
             </p>
 
+
             {/* <section className="listings">
                 <Line/>
                 <p>

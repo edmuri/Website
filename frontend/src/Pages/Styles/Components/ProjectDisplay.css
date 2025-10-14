@@ -75,10 +75,10 @@
     width:35%;
 }
 .Project-description-div>p{
-    font-size:clamp(0.1rem,0.9vw,10rem);
+    /* font-size:clamp(0.1rem,0.9vw,10rem); */
 }
 .Project-description{
-    font-size:clamp(0.5rem,1vw,15rem);
+    font-size:clamp(0.1rem,0.9vw,10rem);
 }
 .carousel-container{
     max-height: 100%;
@@ -117,7 +117,6 @@
 /* BOTTOM RIGHT SECTION */
 .Project-extra-details-div{
     margin-top:auto;
-    /* background-color: rgb(128, 0, 100); */
     margin-left:5%;
     margin-right:6%;
     display:flex;
@@ -150,3 +149,80 @@ h3{
     /* padding-right:5%; */
 }
 
+@media (max-width: 768px) {
+    .project-display-div{
+        min-height:70vh;
+    }
+    .topPart{
+        flex-direction: column-reverse;
+    }
+    .Project-title {
+        font-size: 1.2rem;
+        padding-left: 2%;
+        width:100%;
+    }
+
+    .carousel-container{
+        margin-top:1%;
+    }
+
+    .Project-dates, .Project-role {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .Project-description {
+        font-size: 0.65rem;
+        width:100%;
+    }
+    .Project-description-div{
+        width:90%;
+        margin-left: 5%;
+    }
+
+    .projectImageToggle {
+        font-size: 1.5rem;
+    }
+    .Project-features>h3{
+        font-size: 1rem;
+        padding:0%;
+        margin:0;
+    }
+    .Project-tech>h3{
+        font-size: 1rem;
+        padding:0%;
+        margin:0;
+    }
+    .feature-list{
+        font-size:0.60rem;
+    }
+    .tech-list-items{
+        font-size:0.65rem;
+    }
+    .Project-tech{
+        width:35%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Project-features{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Project-features-list{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        padding:1%;
+    }
+
+    .tech-list{
+        padding:1%;
+    }
+    .Link-icon-container{
+        max-width:17%;
+    }
+
+} 

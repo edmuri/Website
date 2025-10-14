@@ -5,10 +5,8 @@
     flex-direction: column;
 }
 .topProjectsPage{
-    /* background-color: purple; */
     height:100%;
     display:flex;
-    /* justify-content: center; */
     column-gap: 11%;
 }
 .project-nav-bar{
@@ -18,11 +16,6 @@
 .projectDisplay{
     height:100%;
     width:65%;
-    /* display:flex; */
-    /* align-content: center;
-    justify-content: center; */
-    /* padding:1%; */
-    /* background-color:yellow; */
     background-color: black;
     margin-top: 0.5%;
     justify-self: center;
@@ -35,4 +28,14 @@
 .projectButton:hover{
     background-color:#ffffff;
     color:black;
+}
+
+@media (max-width: 480px){
+    .topProjectsPage{
+        column-gap: 5%;
+    }
+    .projectDisplay{
+        width:75%;
+        margin-top: 10%;
+    }
 }
